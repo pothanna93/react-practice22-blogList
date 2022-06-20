@@ -1,0 +1,27 @@
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 1px solid #e7e5ea;
+  list-style-type: none;
+}
+.date-text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  font-size: 20px;
+  color: #12022f;
+  font-weight: 600;
+  font-family: 'roboto';
+}
+.date {
+  font-size: 18px;
+  color: #9aa5b1;
+  font-family: 'roboto';
+}
+.description {
+  color: #9aa5b1;
+  font-size: 14px;
+}
